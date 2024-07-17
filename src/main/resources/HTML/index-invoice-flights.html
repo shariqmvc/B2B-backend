@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/favicon.png" rel="icon" />
+<title>Flight Booking Invoice - Koice</title>
+<meta name="author" content="harnishdesign.net">
+
+<!-- Web Fonts
+======================= -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+
+<!-- Stylesheet
+======================= -->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+</head>
+<body>
+<!-- Container -->
+<div class="container-fluid invoice-container"> 
+  <!-- Header -->
+  <header>
+    <div class="row align-items-center">
+      <div class="col-sm-7 text-center text-sm-start mb-3 mb-sm-0"> <img id="logo" src="images/logo.png" title="Koice" alt="Koice" /> </div>
+      <div class="col-sm-5 text-center text-sm-end">
+        <h4 class="mb-0">Invoice</h4>
+        <p class="mb-0">Invoice Number - 16835</p>
+      </div>
+    </div>
+    <hr>
+  </header>
+  
+  <!-- Main Content -->
+  <main>
+    <div class="row">
+      <div class="col-sm-6 text-sm-end order-sm-1"> <strong>Pay To:</strong>
+        <address>
+        Koice Inc<br />
+        2705 N. Enterprise St<br />
+        Orange, CA 92865
+        </address>
+      </div>
+      <div class="col-sm-6 order-sm-0"> <strong>Invoiced To:</strong>
+        <address>
+        Smith Rhodes<br />
+        15 Hodges Mews, High Wycombe<br />
+        HP12 3JL<br />
+        United Kingdom
+        </address>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 mb-3"> <strong>Payment Method:</strong><br>
+        <span>Credit Card</span> </div>
+      <div class="col-sm-6 mb-3 text-sm-end"> <strong>Booking Date:</strong><br>
+        <span>07/11/2020</span> </div>
+    </div>
+    <div class="card">
+      <div class="card-header"> <span class="fw-600 text-4">Booking Summary</span> </div>
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table mb-0">
+            <thead>
+              <tr>
+                <td class="col-6"><strong>Flight Details</strong></td>
+                <td class="col-2 text-center"><strong>Base Fare</strong></td>
+                <td class="col-2 text-center"><strong>Taxes & Fee</strong></td>
+                <td class="col-2 text-end"><strong>Amount</strong></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="text-3"><span class="fw-500">Indigo 6E-2726</span> - Delhi to Sydney</span> <br>
+                  Travel Date - Sat, 15 Jun 19, 01:50 hrs <br>
+                  Smith Rhodes </td>
+                <td class="text-center">$980.00</td>
+                <td class="text-center">0</td>
+                <td class="text-end">$980.00</td>
+              </tr>
+              <tr>
+                <td><span class="text-3"><span class="fw-500">JetAirways MD-270</span> - Sydney to Delhi</span> <br>
+                  Travel Date - Mon, 01 July 19, 19:38 hrs <br>
+                  Smith Rhodes </td>
+                <td class="text-center">$999.00</td>
+                <td class="text-center">0</td>
+                <td class="text-end">$999.00</td>
+              </tr>
+            </tbody>
+			<tfoot class="card-footer">
+			  <tr>
+                <td colspan="3" class="text-end"><strong>Sub Total:</strong></td>
+                <td class="text-end">$1979.00</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="text-end"><strong>Promotional Code:</strong><br>
+                  <span class="text-1">summerfun - 20.00% One Time Discount</span></td>
+                <td class="text-end align-top">-$395.80</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="text-end border-bottom-0"><strong>Total:</strong></td>
+                <td class="text-end border-bottom-0">$1583.20</td>
+              </tr>
+			</tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="table-responsive d-print-none">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <td class="text-center"><strong>Transaction Date</strong></td>
+            <td class="text-center"><strong>Gateway</strong></td>
+            <td class="text-center"><strong>Transaction ID</strong></td>
+            <td class="text-center"><strong>Amount</strong></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-center">07/11/2020</td>
+            <td class="text-center">Credit Card</td>
+            <td class="text-center">3912912704</td>
+            <td class="text-center">$1583.20 USD</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="text-1"><strong>NOTE :</strong> This is computer generated receipt and does not require physical signature.</p>
+    <div class="btn-group btn-group-sm d-print-none"> <a href="javascript:window.print()" class="btn btn-light border text-black-50 shadow-none"><i class="fa fa-print"></i> Print</a> <a href="" class="btn btn-light border text-black-50 shadow-none"><i class="fa fa-download"></i> Download</a> </div>
+  </footer>
+</div>
+<!-- Back to My Account Link -->
+<p class="text-center d-print-none"><a href="#">&laquo; Back to My Account</a></p>
+</body>
+</html>
